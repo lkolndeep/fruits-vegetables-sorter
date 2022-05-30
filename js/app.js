@@ -34,10 +34,7 @@ new Vue({
                         this.sortedVegetables.push(this.allElements[i]);
                     }
                 }
-            }
-
-            this.number = 0;
-            this.allElements = [];
+            }            
 
             // Handle multiple fruits
             for (let i = 0; i < this.sortedFruits.length; i++) {
@@ -82,6 +79,9 @@ new Vue({
                     }
                 }
             }
+
+            this.number = 0;
+            this.allElements = [];
         }
     }
 })
